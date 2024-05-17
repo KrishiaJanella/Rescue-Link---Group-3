@@ -1,5 +1,7 @@
 /* navigation bar */
-
+a{
+    text-decoration: none;
+}
 .navigation{
     height: 50px;
     width: 100%;
