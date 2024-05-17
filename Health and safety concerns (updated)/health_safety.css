@@ -1,0 +1,631 @@
+/* navigation bar */
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+button{
+    background: transparent;
+    border: none;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.reg button:hover{
+    color: #FF9C00;
+}
+.reg button{
+    margin-right: 40px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    
+    
+}
+
+.hotline button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #ffffff;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.hotline button:hover{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #FF9C00;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.logo{
+    display: flex;
+}
+.logo h1{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+}
+/*end  navigation bar */
+
+
+
+
+.page1{
+    
+    margin-top: 0px;
+    margin-bottom: 20px;
+    background-image: url('health_assets/10.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+
+
+
+.footer{
+    margin-top: 0px;
+    background-image: url('health_assets/footer_bg.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.shape{
+    position: static;
+    width: 100%;
+    height: 100vh;
+}
+
+.explore_img{
+    display: flex;
+    position:absolute;
+    margin-top: -470px;
+    margin-left: 100px;
+}
+
+.explore_img img{
+    width: 340px;
+    height: 175px;
+    margin-left: 20px;
+    opacity: 0.75;
+}
+
+.explore_img img:hover{
+    opacity: 1;
+}
+
+.explore_img2 img:hover{
+    opacity: 1;
+}
+
+.explore_img p{
+    position:absolute;
+}
+
+.explore_img2 p{
+    position:absolute;
+}
+
+.label1{
+    margin-top: 60px;
+    margin-left: 120px;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    font-weight:500;
+    font-size: 40px;
+    width: fit-content;
+    text-shadow: 2px 2px #98727a ;
+}
+
+
+.label2{
+    opacity: 1;
+    margin-top: 40px;
+    margin-left: 415px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    padding-right: 20px;
+    padding-right: 200px;
+    color: white;
+    font-weight:500;
+    font-size: 40px;
+    width: fit-content;
+    text-shadow: 2px 2px #98727a ;
+}
+
+.label3{
+    opacity: 1;
+    margin-top: 20px;
+    margin-left: 780px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    font-weight:500;
+    font-size: 40px;
+    width: fit-content;
+    text-shadow: 2px 2px #98727a ;
+}
+
+.label4{
+    opacity: 1;
+    margin-top: 40px;
+    margin-left: 80px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    font-weight:500;
+    font-size: 40px;
+    width: fit-content;
+    text-shadow: 2px 2px #98727a ;
+}
+
+.label5{
+    opacity: 1;
+    margin-top: 40px;
+    margin-left: 400px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    padding-right: 20px;
+    padding-right: 200px;
+    color: white;
+    font-weight:500;
+    font-size: 40px;
+    width: fit-content;
+    text-shadow: 2px 2px #98727a ;
+}
+
+.label6{
+    opacity: 1;
+    margin-top: 60px;
+    margin-left: 800px;
+    text-align: center;
+    font-family: "Barlow", sans-serif;
+    color: white;
+    font-weight:500;
+    font-size: 35px;
+    width: fit-content;
+    text-shadow: 2px 2px #98727a ;
+}
+
+.explore_img2{
+    display: flex;
+    position:absolute;
+    margin-top: -280px;
+    margin-left: 100px;
+}
+.explore_img2 img{
+    width: 340px;
+    height: 175px;
+    margin-left: 20px;
+    opacity: 0.75;
+}
+
+
+
+
+.title{
+    z-index: 1;
+}
+.title img{
+    position: static;
+    width: 100%;
+    height: 100vh;
+   
+}
+.title h1{
+    position:absolute;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+
+}
+
+
+.title h3{
+    position: absolute;
+    font-family: "Barlow";
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px #98727a ;
+    
+}
+
+.mission{
+    text-align: justify;
+    font-family: "Barlow";
+    margin-top: -200px;
+    margin-left: 475px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #81535D;
+}
+
+.colored{
+    color: #FF9C00;
+}
+
+.textcont{
+    
+    background-color: #fff;
+    height: 150px;
+    width: 190px;
+    padding: 15px;
+    margin: -5px 0;
+}
+.textcont h3{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 0;
+}
+
+.textcont p{
+    font-family: "Barlow";
+    font-size: 9px;
+    color: #81535D;
+    margin-bottom: 10px;
+
+}
+
+.textcont h4{
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #FF9C00;
+    text-align: center;
+}
+.container img{
+    width: 220px;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+.container{
+    margin: 0 50px;
+    box-shadow: 2px 2px 5px #c8babe;
+    
+
+}
+.contbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+
+.footer{
+    margin-top: 0px;
+    background-image: url('../general_asset/footer/28.png');
+    background-attachment: fixed;
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.footer_logo img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 850px;
+    width: 150px; 
+    height: 150px;
+}
+
+.footer_title p{
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 800px;
+    margin-top: 200px;
+}
+
+.footer_hotline a{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-left: 820px;
+    margin-top: 260px;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer_hotline a:hover{
+    color: #81535D;
+}
+
+.follow p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 460px;
+    margin-top: 170px;
+}
+
+.follow_links{
+    position: absolute;
+    margin-left:380px;
+    margin-top: 200px;
+}
+.follow_links a{
+    margin-left: 60px;
+}
+.follow_links img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.right_footer{
+    margin-left: 60px;
+}
+
+
+.mid_footer{
+    margin-left: 60px;
+
+}
+
+.left_icons{
+    position: absolute;
+    margin-left:10px;
+    margin-top: 70px;
+}
+
+.left_icons img{
+    position: absolute;
+    opacity: 1;
+}
+
+.left_footer{
+    margin-left: 20px;
+}
+
+.left_text p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #F6EED6;
+}
+.left_text{
+    margin-left: 70px;
+}
+
+
+.home_about a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+
+
+.disasters_contact a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 215px;
+    letter-spacing: 2px;
+}
+
+
+.clean_up{
+    background-color: #F6EED6;
+    margin-top: 20px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex;
+}
+
+.food_water{
+    background-color: white;
+    margin-top: 20px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex; 
+}
+
+.prevent_illness{
+    background-color: #F6EED6;
+    margin-top: 20px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex;  
+}
+
+.animals_insects{
+    background-color: white;
+    margin-top: 20px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex;  
+}
+
+.carbon_monoxide{
+    background-color: #F6EED6;
+    margin-top: 20px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex;  
+}
+
+.power_outages{
+    background-color: white;
+    margin-top: 20px;
+    background-attachment: fixed;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: center;
+    display: flex;  
+}
+
+.banner img{
+    height: 100vh;
+    width: 60%;
+}
+
+.body{
+    width: 200px;
+}
+
+.NZcont{
+    display: flex; 
+    width: 200vh;
+    margin-left: 120px;
+    margin-top: 0;
+    
+}
+
+
+.Header{
+    color:#ffffff;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    padding: 10px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 0;
+    margin-left: 40px;
+    background-color: #FF9C00;
+    border-radius: 10px;
+
+}
+
+.content{
+    font-family: "Barlow";
+    font-size: 18px;
+    color: #81535D;
+    margin: 45px 0 45px 45px;
+    line-height: 25px;
+    text-align: left;
+    width: fit-content;
+}
+
+.images{
+    margin-left: 38px;
+    margin-top: 40px;
+}
+
+.images img{
+    float: left;
+    width: 370px;
+    height: 300px;
+    padding: 10px 20px 10px 10px;
+}

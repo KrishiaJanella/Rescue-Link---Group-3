@@ -1,0 +1,1238 @@
+/* navigation bar */
+
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+button{
+    background: transparent;
+    border: none;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.reg button:hover{
+    color: #FF9C00;
+}
+.reg button{
+    margin-right: 40px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    
+    
+}
+
+.hotline button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #ffffff;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.hotline button:hover{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #FF9C00;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.logo{
+    display: flex;
+}
+.logo h1, .logo a{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+
+/*end  navigation bar */
+
+
+
+.page1{
+    
+    margin-top: 0px;
+    background-image: url('assets/5.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+
+}
+.title{
+    z-index: 1;
+}
+.title img{
+    position: static;
+    width: 100%;
+    height: 100vh;
+   
+}
+.title h1{
+    position:absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 60px;
+    margin-top: 180px;
+    margin-left: 55%;
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+
+}
+.title h3{
+    position: absolute;
+    font-family: "Barlow";
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px #98727a ;
+    
+}
+
+
+.colored{
+    color: #FF9C00;
+}
+
+.textcont{
+    
+    background-color: #fff;
+    height: 150px;
+    width: 190px;
+    padding: 15px;
+    margin: -5px 0;
+}
+.textcont h3{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 0;
+}
+
+.textcont p{
+    font-family: "Barlow";
+    font-size: 9px;
+    color: #81535D;
+    margin-bottom: 10px;
+
+}
+
+.textcont h4{
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #FF9C00;
+    text-align: center;
+}
+
+.textcont h4:hover{
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #81535D;
+    text-align: center;
+}
+.container img{
+    width: 220px;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+.container{
+    margin: 0 25px;
+    box-shadow: 2px 2px 5px #c8babe;
+    
+
+}
+.contbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+    margin-right: 25px;
+}
+
+.page2 h1{
+    color: #FF9C00;
+    font-family: "Barlow";
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: 45px;
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.contabout{
+    margin: 0 50px;
+}
+
+.contabout p{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin-bottom: 10px;
+    margin-top: 0;
+    line-height: 20px;
+    text-align: justify;
+
+}
+
+.contabout h3{
+    font-family: "Barlow";
+    font-size: 10px;
+    color: #FF9C00;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: #FF9C00 solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.contabout a :hover{
+    font-family: "Barlow";
+    font-size: 10px;
+    color: #81535D;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    text-align: center;
+    border: #81535D solid 3px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.resources h4:hover{
+    font-family: "Barlow";
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #81535D;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+.contresources{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 0;
+    margin-left: 30px;
+    margin-right: 30px;
+    
+}
+
+.resources{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    margin: 60px 100px;
+   
+}
+.resources h3{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #FF9C00;
+    margin: 0;
+}
+
+.resources p{
+    text-align: justify;
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #81535D;
+    margin-bottom: 10px;
+}
+
+.resources h4{
+    font-family: "Barlow";
+    font-size: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+    
+    text-align: center;
+    background-color: #FF9C00;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.resources img{
+    width: auto;
+    height: 50px;
+}
+
+
+.footer{
+    margin-top: 0px;
+    background-image: url(../../../general_asset/footer/28.png);
+    background-attachment: fixed;
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.footer_logo img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 850px;
+    width: 150px; 
+    height: 150px;
+}
+
+.footer_title p{
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 800px;
+    margin-top: 200px;
+}
+
+.footer_hotline a{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-left: 820px;
+    margin-top: 260px;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer_hotline a:hover{
+    color: #81535D;
+}
+
+.follow p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 460px;
+    margin-top: 170px;
+}
+
+.follow_links{
+    position: absolute;
+    margin-left:380px;
+    margin-top: 200px;
+}
+.follow_links a{
+    margin-left: 60px;
+}
+.follow_links img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.right_footer{
+    margin-left: 60px;
+}
+
+
+.mid_footer{
+    margin-left: 60px;
+
+}
+
+.left_icons{
+    position: absolute;
+    margin-left:10px;
+    margin-top: 70px;
+}
+
+.left_icons img{
+    position: absolute;
+    opacity: 1;
+}
+
+.left_footer{
+    margin-left: 20px;
+}
+
+.left_text p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #F6EED6;
+}
+.left_text{
+    margin-left: 70px;
+}
+
+
+.home_about a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+
+
+.disasters_contact a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 215px;
+    letter-spacing: 2px;
+}
+
+
+
+
+@media screen and (min-width:601px) and (max-width:1023px) {
+    .reg, .hotline{
+        white-space: nowrap;
+    }
+    
+    .logo h1{
+        display: none;
+    }
+    .reg button{
+        margin-right: 10px;
+        color: #F6EED6;
+        font-family: "Barlow";                                 
+        text-decoration: none;
+        font-size: 9px;
+        text-align: center;
+        letter-spacing: 2px; 
+    }
+    
+    .hotline button{
+        padding: 8px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 9px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .hotline button:hover{
+        padding: 8px;
+        border-radius: 30px;
+        background-color: #F6EED6;
+        text-decoration: none;
+        color: #FF9C00;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .title h1{
+        position:absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 40px;
+        margin-top: 150px;
+        margin-left: 40%;
+        color: #fff;
+        text-shadow: 2px 2px #98727a ;
+    
+    }
+    .title h3{
+        position: absolute;
+        font-family: "Barlow";
+        font-size: 16px;
+        margin-top: 200px;
+        margin-left: 37%;
+        color: #fff;
+        font-weight: 500;
+        text-shadow: 1px 1px #98727a ;
+        
+    }
+    .title img{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: -10px;
+    }
+    .page1{
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+    }
+    .page2{
+        background-color: #fafafa;
+        margin-top: -100px;
+    }
+    .page2 h1{
+        color: #FF9C00;
+        font-family: "Barlow";
+        font-size: 30px;
+        font-weight: 300;
+        margin-left: 45px;
+        margin-bottom: 0;
+        padding-top: 100px;
+    }
+    .block{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        margin-top: 100px;
+    }
+    .contbutton{
+        display: block;
+        
+    }
+    .textcont{
+        background-color: #fff;
+        height: 170px;
+        width: 150px;
+        padding: 15px;
+        margin: -5px 0;
+    }
+    .textcont h3{
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #81535D;
+        margin: 0;
+    }
+    
+    .textcont p{
+        font-family: "Barlow";
+        font-size: 8px;
+        color: #81535D;
+        margin-bottom: 10px;
+    
+    }
+    
+    .textcont h4, .textcont a{
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #FF9C00;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .textcont h4:hover {
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #81535D;
+        text-align: center;
+        text-decoration: none;
+    }
+    .container img{
+        width: 180px;
+        height: auto;
+        margin-bottom: 0;
+        
+    }
+    
+    .container{
+        margin: 0 10px;
+        box-shadow: 2px 2px 5px #c8babe;
+        height: auto;
+    }
+
+    .contresources{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    
+    .resources{
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        margin: 60px 30px;
+       
+    }
+    .resources h3{
+        font-family: "Barlow";
+        font-size: 13px;
+        color: #FF9C00;
+        margin: 0;
+    }
+    
+    .resources p{
+        text-align: justify;
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #81535D;
+        margin-bottom: 10px;
+    }
+    
+    .resources h4{
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #fff;
+        margin-bottom: 10px;
+        
+        text-align: center;
+        background-color: #FF9C00;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .resources img{
+        width: auto;
+        height: 50px;
+    }
+    
+    .contcontact{
+        position: absolute;
+        
+    }
+    
+    .contact{
+        display: flex;
+    }
+    
+
+    
+    
+    
+
+    
+    .footer{
+        margin-top: 0px;
+        background-attachment: fixed;
+        width: auto;
+        height:60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+        background-size: center;
+        
+        
+    }
+
+    .footer_logo img{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 360px;
+        width: 100px; 
+        height: 100px;
+    }
+
+    .footer_title p{
+        position: absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 340px;
+        margin-top: 150px;
+    }
+
+    .footer_hotline a{
+        position: absolute;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        margin-left: 340px;
+        margin-top: 200px;
+        color: #F6EED6;
+        font-family: "Barlow", sans-serif;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .footer_hotline a:hover{
+        color: #81535D;
+    }
+
+    .follow p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 12px;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 340px;
+        margin-top: 270px;
+    }
+
+    .follow_links{
+        position: absolute;
+        margin-left:260px;
+        margin-top: 300px;
+    }
+    .follow_links a{
+        margin-left: 60px;
+    }
+    .follow_links img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        margin-left: 10px;
+        opacity: 1;
+    }
+
+    .right_footer{
+        margin-left: 60px;
+    }
+
+
+    .mid_footer{
+        margin-left: 60px;
+
+    }
+
+    .left_icons{
+        position: absolute;
+        margin-left:10px;
+        margin-top: 70px;
+    }
+
+    .left_icons img{
+        position: absolute;
+        opacity: 1;
+        width: 30px;
+        height: auto;
+        
+    }
+
+    .left_footer{
+        margin-left: 20px;
+    }
+
+    .left_text p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #F6EED6;
+    }
+    .left_text{
+        margin-left: 70px;
+    }
+
+
+    .home_about a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 30px;
+        margin-top: 250px;
+        letter-spacing: 2px;
+    }
+
+
+    .disasters_contact a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 100px;
+        margin-top: 215px;
+        letter-spacing: 2px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+    .reg, .hotline{
+        white-space: nowrap;
+    }
+    .logo h1{
+        display: none;
+    }
+
+    .navigation{
+        height: 50px;
+        width: auto;
+        display: flex;
+        position: fixed;
+        background-color: #81535D;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+        justify-content: space-between;
+        z-index: 9999;
+        
+    }
+    .wordlogo{
+        display: none;
+        margin: 2px;
+    }
+    .reg button{
+        margin-right: 10px;
+        color: #F6EED6;
+        font-family: "Barlow";                                 
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+        letter-spacing: 2px; 
+    }
+    
+    .hotline button{
+        padding: 5px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .hotline button:hover{
+        padding: 5px;
+        border-radius: 30px;
+        background-color: #F6EED6;
+        text-decoration: none;
+        color: #FF9C00;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+    
+    .title h1{
+        position:absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 30px;
+        margin-top: 120px;
+        margin-left: 40%;
+        color: #fff;
+        text-shadow: 2px 2px #98727a ;
+    
+    }
+    .title h3{
+        position: absolute;
+        font-family: "Barlow";
+        font-size: 10px;
+        margin-top: 155px;
+        margin-left: 40%;
+        color: #fff;
+        font-weight: 500;
+        text-shadow: 1px 1px #98727a ;
+        
+    }
+    .title img{
+        position: static;
+        width: 100%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: -10px;
+        
+    }
+
+    .page1{
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+    }
+
+    .contabout{
+        margin: 0 50px;
+    }
+    
+    .contabout p{
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #81535D;
+        margin-bottom: 10px;
+        margin-top: 0;
+        line-height: 20px;
+        text-align: justify;
+    
+    }
+    
+    .contabout h3{
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #FF9C00;
+        margin-bottom: 10px;
+        margin-top: 30px;
+        text-align: center;
+        border: #FF9C00 solid 3px;
+        border-radius: 10px;
+        padding: 15px;
+    }
+    
+    .page2{
+        background-color: #fafafa;
+        margin-top: -100px;
+    }
+    .page2 h1{
+        color: #FF9C00;
+        font-family: "Barlow";
+        font-size: 20px;
+        font-weight: 300;
+        margin-left: 45px;
+        margin-bottom: 0;
+        padding-top: 100px;
+    }
+    .block{
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        margin-top: 100px;
+    }
+    .contbutton{
+        display: block;
+        
+    }
+    .textcont{
+        background-color: #fff;
+        height: 150px;
+        width: 130px;
+        padding: 10px;
+        margin: -5px 0;
+    }
+    .textcont h3{
+        font-family: "Barlow";
+        font-size: 8px;
+        color: #81535D;
+        margin: 0;
+    }
+    .textcont p{
+        font-family: "Barlow";
+        font-size: 7px;
+        color: #81535D;
+        margin-bottom: 10px;
+    
+    }
+    
+    .textcont h4, .textcont a{
+        font-family: "Barlow";
+        font-size: 8px;
+        color: #FF9C00;
+        text-align: center;
+        text-decoration: none;
+    }
+    
+    .textcont h4:hover {
+        font-family: "Barlow";
+        font-size:8px;
+        color: #81535D;
+        text-align: center;
+        text-decoration: none;
+    }
+    .container img{
+        width: 150px;
+        height: auto;
+        margin-bottom: 0;
+        
+    }
+    
+    .container{
+        margin: 0 5px;
+        box-shadow: 2px 2px 5px #c8babe;
+        height: auto;
+        
+    
+    }
+    .contbutton {
+        display: block;
+        justify-content: center;
+        margin-top: 25px;
+        margin-bottom: 80px;
+    }
+    
+    .contresources{
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 0;
+        margin-left: 30px;
+        margin-right: 30px;
+        
+    }
+    
+    .resources{
+        height: 200px;
+        width: 200px;
+        text-align: center;
+        margin: 60px 10px;
+       
+    }
+    .resources h3{
+        font-family: "Barlow";
+        font-size: 13px;
+        color: #FF9C00;
+        margin: 0;
+    }
+    
+    .resources p{
+        text-align: justify;
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #81535D;
+        margin-bottom: 10px;
+    }
+    
+    .resources h4{
+        font-family: "Barlow";
+        font-size: 10px;
+        color: #fff;
+        margin-bottom: 10px;
+        
+        text-align: center;
+        background-color: #FF9C00;
+        border-radius: 5px;
+        padding: 5px;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    
+    .resources img{
+        width: auto;
+        height: 50px;
+    }
+    
+    .contcontact{
+        position: absolute;
+        
+    }
+    
+    .contact{
+        display: flex;
+    }
+    
+    .footer{
+        margin-top: 0px;
+        background-attachment: fixed;
+        width: auto;
+        height:60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+        background-size: center;
+        
+        
+    }
+
+    .footer_logo img{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 260px;
+        width: 100px; 
+        height: 100px;
+    }
+
+    .footer_title p{
+        position: absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 240px;
+        margin-top: 150px;
+    }
+
+    .footer_hotline a{
+        position: absolute;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        margin-left: 240px;
+        margin-top: 200px;
+        color: #F6EED6;
+        font-family: "Barlow", sans-serif;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .footer_hotline a:hover{
+        color: #81535D;
+    }
+
+    .follow p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 12px;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 240px;
+        margin-top: 250px;
+    }
+
+    .follow_links{
+        position: absolute;
+        margin-left:180px;
+        margin-top: 300px;
+    }
+    .follow_links a{
+        margin-left: 60px;
+    }
+    .follow_links img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        margin-left: 10px;
+        opacity: 1;
+    }
+
+    .right_footer{
+        margin-left: 60px;
+    }
+
+
+    .mid_footer{
+        margin-left: 60px;
+
+    }
+
+    .left_icons{
+        position: absolute;
+        margin-left:10px;
+        margin-top: 70px;
+    }
+
+    .left_icons img{
+        position: absolute;
+        opacity: 1;
+        width: 30px;
+        height: auto;
+        
+    }
+
+    .left_footer{
+        margin-left: 20px;
+    }
+
+    .left_text p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #F6EED6;
+    }
+    .left_text{
+        margin-left: 70px;
+    }
+
+
+    .home_about a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 30px;
+        margin-top: 250px;
+        letter-spacing: 2px;
+    }
+
+
+    .disasters_contact a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 100px;
+        margin-top: 215px;
+        letter-spacing: 2px;
+    }
+
+}

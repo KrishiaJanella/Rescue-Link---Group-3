@@ -1,0 +1,2103 @@
+/* navigation bar */
+.navigation{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    background-color: #81535D;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    overflow: hidden;
+    justify-content: space-between;
+    z-index: 9999;
+    
+}
+#navButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+button{
+    background: transparent;
+    border: none;
+    white-space: nowrap;
+    font-weight: 500;
+    letter-spacing: 2px;
+
+}
+
+.reg button:hover{
+    color: #FF9C00;
+}
+.reg button{
+    margin-right: 40px;
+    color: #F6EED6;
+    font-family: "Barlow";                                 
+    text-decoration: none;
+    font-size: 12px;
+    text-align: center;
+    
+    
+}
+
+.hotline button{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #ffffff;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    
+}
+
+.hotline button:hover{
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F6EED6;
+    text-decoration: none;
+    margin-right: 40px;
+    color: #FF9C00;
+    font-family: "Barlow", sans-serif;                                     
+    text-decoration: none;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+.logo{
+    display: flex;
+}
+.logo h1, .logo a{
+    font-family: "Ubuntu", sans-serif;
+    font-size: 30px;
+    color:#F6EED6;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+
+/*end  navigation bar */
+
+.title{
+    margin-top: 0px;
+    background-image: url('../asset/faq_background.png');
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F6EED6;
+    background-size: center;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FAFAFA;
+    overflow-x: hidden;
+}
+
+.page1{
+    margin-top: 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #F6EED6;
+    background-size: center;
+}
+
+.page2{
+    margin-top: 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 65vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: center;
+}
+
+.page3{
+    margin-top: 0px;
+    background-attachment: fixed;
+    width: 100%;
+    height: 440vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: center;
+}
+
+.page2 p{
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 80px;
+    color: #fff;
+    text-shadow: 2px 2px #98727a;
+    margin-top: -230px;
+    margin-left: 530px;
+}
+
+.page2 img{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+.Q{
+    text-shadow: 3px 2px #aaa8a5;
+    font-size: 50px;
+}
+
+.A{
+    text-shadow: 3px 2px #aaa8a5;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+
+
+/*---------------------Question 1---------------------------*/
+.question1{
+    margin-left: -150px;
+}
+.question1 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 200px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer1{
+    margin-left: -150px;
+}
+.answer1 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 270px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 2---------------------------*/
+
+.question2{
+    margin-left: -150px;
+}
+.question2 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 390px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer2{
+    margin-left: -150px;
+}
+.answer2 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 460px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 3---------------------------*/
+
+.question3{
+    margin-left: -150px;
+}
+.question3 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 580px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer3{
+    margin-left: -150px;
+}
+.answer3 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 650px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 4---------------------------*/
+
+.question4{
+    margin-left: -150px;
+}
+.question4 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 770px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer4{
+    margin-left: -150px;
+}
+.answer4 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 840px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 5---------------------------*/
+
+.question5{
+    margin-left: -150px;
+}
+.question5 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 960px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer5{
+    margin-left: -150px;
+}
+.answer5 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1030px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 6---------------------------*/
+
+.question6{
+    margin-left: -150px;
+}
+.question6 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1150px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer6{
+    margin-left: -150px;
+}
+.answer6 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1220px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 7---------------------------*/
+
+.question7{
+    margin-left: -150px;
+}
+.question7 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1310px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer7{
+    margin-left: -150px;
+}
+.answer7 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1380px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 8---------------------------*/
+
+.question8{
+    margin-left: -150px;
+}
+.question8 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1470px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer8{
+    margin-left: -150px;
+}
+.answer8 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1540px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 9---------------------------*/
+
+.question9{
+    margin-left: -150px;
+}
+.question9 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1640px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer9{
+    margin-left: -150px;
+}
+.answer9 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1700px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 10---------------------------*/
+
+.question10{
+    margin-left: -150px;
+}
+.question10 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1820px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer10{
+    margin-left: -150px;
+}
+.answer10 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 1890px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+/*---------------------Question 11---------------------------*/
+
+.question11{
+    margin-left: -150px;
+}
+.question11 p{
+    position: absolute;
+    width: 1000px;
+    color: #4089BE;
+    background-color: #F4F2F2;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 2020px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+}
+
+.answer11{
+    margin-left: -150px;
+}
+.answer11 p{
+    position: absolute;
+    width: 1000px;
+    color: #696969;
+    font-family: "Barlow", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    margin-top: 2120px;
+    margin-left: 250px;
+    padding-left: 20px;
+    padding-right: 500px;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+
+.title_page2 p{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.title_page2{
+    margin-top: 20px;
+    margin-left: 330px;
+}
+
+
+
+
+.title{
+    z-index: 1;
+}
+.title img{
+    position: static;
+    width: 100%;
+    height: 100vh;
+    width: 275px; 
+    height:290px;
+   
+}
+.title h1{
+    font-family: "Ubuntu", sans-serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 175px;
+    margin-left: 500px; 
+    color: #fff;
+    text-shadow: 2px 2px #98727a ;
+
+}
+
+
+.title h3{
+    position: absolute;
+    font-family: "Barlow";
+    font-size: 30px;
+    margin-top: 250px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: 500;
+    text-shadow: 1px 1px #98727a ;
+    
+}
+
+.mission{
+    text-align: justify;
+    font-family: "Barlow";
+    margin-top: -200px;
+    margin-left: 475px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 20px;
+    line-height: 30px;
+    color: #81535D;
+}
+
+.colored{
+    color: #FF9C00;
+}
+
+.textcont{
+    
+    background-color: #fff;
+    height: 150px;
+    width: 190px;
+    padding: 15px;
+    margin: -5px 0;
+}
+.textcont h3{
+    font-family: "Barlow";
+    font-size: 15px;
+    color: #81535D;
+    margin: 0;
+}
+
+.textcont p{
+    font-family: "Barlow";
+    font-size: 9px;
+    color: #81535D;
+    margin-bottom: 10px;
+
+}
+
+.textcont h4{
+    font-family: "Barlow";
+    font-size: 12px;
+    color: #FF9C00;
+    text-align: center;
+}
+.container img{
+    width: 220px;
+    height: auto;
+    margin-bottom: 0;
+    
+}
+
+.container{
+    margin: 0 50px;
+    box-shadow: 2px 2px 5px #c8babe;
+    
+
+}
+.contbutton {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/*-----------------FOOTER-------------------*/
+
+.footer{
+    margin-top: 0px;
+    background-image: url('../asset/faq_background.png');
+    background-attachment: fixed;
+    width: 100%;
+    height:60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(66, 57, 57, 0.692);
+    background-size: center;
+}
+
+.footer_logo img{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 850px;
+    width: 150px; 
+    height: 150px;
+}
+
+.footer_title p{
+    position: absolute;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 800px;
+    margin-top: 200px;
+}
+
+.footer_hotline a{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 30px;
+    background-color: #FF9C00;
+    text-decoration: none;
+    margin-left: 820px;
+    margin-top: 260px;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.footer_hotline a:hover{
+    color: #81535D;
+}
+
+.follow p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-size: 25px;
+    color: #F6EED6;
+    line-height: 10px;
+    margin-left: 460px;
+    margin-top: 170px;
+}
+
+.follow_links{
+    position: absolute;
+    margin-left:380px;
+    margin-top: 200px;
+}
+.follow_links a{
+    margin-left: 60px;
+}
+.follow_links img{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    margin-left: 10px;
+    opacity: 1;
+}
+
+.right_footer{
+    margin-left: 60px;
+}
+
+
+.mid_footer{
+    margin-left: 60px;
+
+}
+
+.left_icons{
+    position: absolute;
+    margin-left:10px;
+    margin-top: 70px;
+}
+
+.left_icons img{
+    position: absolute;
+    opacity: 1;
+}
+
+.left_footer{
+    margin-left: 20px;
+}
+
+.left_text p{
+    position: absolute;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 17px;
+    color: #F6EED6;
+}
+.left_text{
+    margin-left: 70px;
+}
+
+
+.home_about a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-top: 250px;
+    letter-spacing: 2px;
+}
+
+
+.disasters_contact a{
+    position: absolute;
+    color: #F6EED6;
+    font-family: "Barlow";
+    text-decoration: none;
+    font-size: 15px;
+    margin-left: 200px;
+    margin-top: 215px;
+    letter-spacing: 2px;
+}
+
+@media screen and (min-width:601px) and (max-width:1023px) {
+    .reg, .hotline{
+        white-space: nowrap;
+    }
+
+    .logo h1{
+        display: none;
+    }
+
+    .reg button{
+        margin-right: 10px;
+        color: #F6EED6;
+        font-family: "Barlow";                                 
+        text-decoration: none;
+        font-size: 9px;
+        text-align: center;
+        letter-spacing: 2px; 
+    }
+
+    .hotline button{
+        padding: 8px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 9px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .hotline button:hover{
+        padding: 8px;
+        border-radius: 30px;
+        background-color: #F6EED6;
+        text-decoration: none;
+        color: #FF9C00;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .title p{
+        position:absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 40px;
+        margin-top: -60px;
+        margin-left: 45%;
+        color: #fff;
+        text-shadow: 2px 2px #98727a ;
+    
+    }
+
+    .title img{
+        width: 135px;
+        height: 140px;
+        position: static;
+        margin-left: 10%;
+    }
+
+    .title_page2 p{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: -25%;
+    background-color: #FF9C00;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    }
+
+    .Q{
+        text-shadow: 3px 2px #aaa8a5;
+        font-size: 40px;
+    }
+    
+    .A{
+        text-shadow: 3px 2px #aaa8a5;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .page1{
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+    }
+
+    .question1 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 150px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        }
+
+    .answer1 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 220px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question2 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 370px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+        }
+    
+    .answer2 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 430px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question3 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 560px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .answer3 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 640px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .question4 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 780px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer4 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 860px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .question5 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1010px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer5 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1090px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question6 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1210px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer6 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1270px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .question7 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1380px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer7 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1440px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question8 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1550px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer8 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1630px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question9 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1720px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer9 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1780px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question10 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1890px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer10 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1950px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question11 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2050px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer11 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2100px;
+        margin-left: 220px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    
+    .footer{
+        margin-top: 0px;
+        background-attachment: fixed;
+        width: auto;
+        height:60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+        background-size: center;
+        
+        
+    }
+
+    .footer_logo img{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 360px;
+        width: 100px; 
+        height: 100px;
+    }
+
+    .footer_title p{
+        position: absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 340px;
+        margin-top: 150px;
+    }
+
+    .footer_hotline a{
+        position: absolute;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        margin-left: 340px;
+        margin-top: 200px;
+        color: #F6EED6;
+        font-family: "Barlow", sans-serif;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .footer_hotline a:hover{
+        color: #81535D;
+    }
+
+    .follow p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 12px;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 340px;
+        margin-top: 270px;
+    }
+
+    .follow_links{
+        position: absolute;
+        margin-left:260px;
+        margin-top: 300px;
+    }
+    .follow_links a{
+        margin-left: 60px;
+    }
+    .follow_links img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        margin-left: 10px;
+        opacity: 1;
+    }
+
+    .right_footer{
+        margin-left: 60px;
+    }
+
+
+    .mid_footer{
+        margin-left: 60px;
+
+    }
+
+    .left_icons{
+        position: absolute;
+        margin-left:10px;
+        margin-top: 70px;
+    }
+
+    .left_icons img{
+        position: absolute;
+        opacity: 1;
+        width: 30px;
+        height: auto;
+        
+    }
+
+    .left_footer{
+        margin-left: 20px;
+    }
+
+    .left_text p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #F6EED6;
+    }
+    .left_text{
+        margin-left: 70px;
+    }
+
+
+    .home_about a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 30px;
+        margin-top: 250px;
+        letter-spacing: 2px;
+    }
+
+
+    .disasters_contact a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 100px;
+        margin-top: 215px;
+        letter-spacing: 2px;
+    }
+
+    .page3{
+        margin-top: 0px;
+        background-attachment: fixed;
+        width: 100%;
+        height: 450vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: white;
+        background-size: center;
+    }
+
+}
+
+@media screen and (max-width:600px){
+    .reg, .hotline{
+        white-space: nowrap;
+    }
+    .logo h1{
+        display: none;
+    }
+
+    .navigation{
+        height: 50px;
+        width: auto;
+        display: flex;
+        position: fixed;
+        background-color: #81535D;
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        overflow: hidden;
+        justify-content: space-between;
+        z-index: 9999;
+        
+    }
+    .wordlogo{
+        display: none;
+        margin: 2px;
+    }
+    .reg button{
+        margin-right: 10px;
+        color: #F6EED6;
+        font-family: "Barlow";                                 
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+        letter-spacing: 2px; 
+    }
+    
+    .hotline button{
+        padding: 5px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        color: #ffffff;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .hotline button:hover{
+        padding: 5px;
+        border-radius: 30px;
+        background-color: #F6EED6;
+        text-decoration: none;
+        color: #FF9C00;
+        font-family: "Barlow", sans-serif;                                     
+        text-decoration: none;
+        font-size: 7px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .title p{
+        position:absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 40px;
+        margin-top: -60px;
+        margin-left: 45%;
+        color: #fff;
+        text-shadow: 2px 2px #98727a ;
+    
+    }
+
+    .title img{
+        width: 135px;
+        height: 140px;
+        position: static;
+        margin-left: 10%;
+    }
+
+    .title_page2 p{
+    position: absolute;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: -67%;
+    background-color: #FF9C00;
+    color: #F6EED6;
+    font-family: "Barlow", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    }
+
+    .Q{
+        text-shadow: 3px 2px #aaa8a5;
+        font-size: 40px;
+    }
+    
+    .A{
+        text-shadow: 3px 2px #aaa8a5;
+        font-size: 40px;
+        font-weight: bold;
+    }
+
+    .page1{
+        margin: 0;
+        padding: 0;
+        background-attachment: fixed;
+        width: 100%;
+        height: auto;
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+    }
+
+    .question1 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 150px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 30px;
+        }
+
+    .answer1 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 220px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question2 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 350px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 35px;
+        }
+    
+    .answer2 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 433px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question3 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 550px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .answer3 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 600px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .question4 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 730px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer4 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 820px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .question5 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 950px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer5 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1030px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question6 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1210px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer6 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1300px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    
+    .question7 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1480px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer7 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1530px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question8 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1700px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer8 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1780px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question9 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 1900px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer9 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2000px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question10 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2150px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .answer10 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2200px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .question11 p{
+        position: absolute;
+        width: 75%;
+        color: #4089BE;
+        background-color: #F4F2F2;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2360px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+
+    .answer11 p{
+        position: absolute;
+        width: 76%;
+        font-family: "Barlow", sans-serif;
+        font-size: 17px;
+        letter-spacing: 2px;
+        margin-top: 2460px;
+        margin-left: 190px;
+        padding-left: 20px;
+        padding-right: 60px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+
+    .footer{
+        margin-top: 0px;
+        background-attachment: fixed;
+        width: auto;
+        height:60vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: rgba(66, 57, 57, 0.692);
+        background-size: center;
+        
+        
+    }
+
+    .footer_logo img{
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 260px;
+        width: 100px; 
+        height: 100px;
+    }
+
+    .footer_title p{
+        position: absolute;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 20px;
+        font-weight: bolder;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 240px;
+        margin-top: 150px;
+    }
+
+    .footer_hotline a{
+        position: absolute;
+        padding: 10px;
+        border-radius: 30px;
+        background-color: #FF9C00;
+        text-decoration: none;
+        margin-left: 240px;
+        margin-top: 200px;
+        color: #F6EED6;
+        font-family: "Barlow", sans-serif;
+        text-decoration: none;
+        font-size: 10px;
+        text-align: center;
+        letter-spacing: 2px;
+    }
+
+    .footer_hotline a:hover{
+        color: #81535D;
+    }
+
+    .follow p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-size: 12px;
+        color: #F6EED6;
+        line-height: 10px;
+        margin-left: 240px;
+        margin-top: 250px;
+    }
+
+    .follow_links{
+        position: absolute;
+        margin-left:180px;
+        margin-top: 300px;
+    }
+    .follow_links a{
+        margin-left: 60px;
+    }
+    .follow_links img{
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        display: inline-flex;
+        margin-left: 10px;
+        opacity: 1;
+    }
+
+    .right_footer{
+        margin-left: 60px;
+    }
+
+
+    .mid_footer{
+        margin-left: 60px;
+
+    }
+
+    .left_icons{
+        position: absolute;
+        margin-left:10px;
+        margin-top: 70px;
+    }
+
+    .left_icons img{
+        position: absolute;
+        opacity: 1;
+        width: 30px;
+        height: auto;
+        
+    }
+
+    .left_footer{
+        margin-left: 20px;
+    }
+
+    .left_text p{
+        position: absolute;
+        font-family: "Barlow", sans-serif;
+        font-weight: bold;
+        font-size: 12px;
+        color: #F6EED6;
+    }
+    .left_text{
+        margin-left: 70px;
+    }
+
+
+    .home_about a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 30px;
+        margin-top: 250px;
+        letter-spacing: 2px;
+    }
+
+
+    .disasters_contact a{
+        position: absolute;
+        color: #F6EED6;
+        font-family: "Barlow";
+        text-decoration: none;
+        font-size: 10px;
+        margin-left: 100px;
+        margin-top: 215px;
+        letter-spacing: 2px;
+    }
+
+    .page3{
+        margin-top: 0px;
+        background-attachment: fixed;
+        width: 100%;
+        height: 530vh;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: white;
+        background-size: center;
+    }
+
+}
